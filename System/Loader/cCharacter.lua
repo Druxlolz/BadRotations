@@ -7,9 +7,9 @@ cCharacter = {}
 function cCharacter:new(class)
 	local self = {}
 	self.augmentRune 	= {        -- Contains the different buff IDs for Augment Runes
-		Agility   = 175456,
-		Strength  = 175439,
-		Intellect = 175457,
+		Agility   = 270058,
+		Strength  = 270058,
+		Intellect = 270058,
 		Legion	  = 224001,
     }
     self.artifact       = {} 		-- Artifact Perk IDs
@@ -29,17 +29,17 @@ function cCharacter:new(class)
     self.flask 			= {}
     self.flask.wod 		= {
         -- Agility
-        agilityLow 		= 127848, 	-- Flask of the Seventh Demon (Legion)
-        agilityBig 		= 127848, 	-- Flask of the Seventh Demon (Legion)
+        agilityLow 		= 152638, 	-- flask-of-the-currents
+        agilityBig 		= 152638, 	-- flask-of-the-currents
         -- Intellect
         intellectLow 	= 109147,
-        intellectBig 	= 109155,
+        intellectBig 	= 152639,
         -- Stamina
         staminaLow 		= 109152,
-        staminaBig		= 109160,
+        staminaBig		= 152640,
         -- Strength
         strengthLow 	= 109148,
-        strengthBig 	= 109156,
+        strengthBig 	= 152641,
     }
     self.flask.wod.buff = {
         -- Agility
@@ -53,7 +53,7 @@ function cCharacter:new(class)
         staminaBig 		= 156084,
         -- Strength
         strengthLow 	= 156071,
-        strengthBig 	= 156080,
+        strengthBig 	= 251839,
     }
     --self.functions 		= {} 		-- Functions
 	self.health         = 100       -- Health Points in %
